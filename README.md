@@ -1,6 +1,8 @@
 # remote-ac-client
 
-This is the client portion of the remote-ac-controller.
+This is the client portion of the [remote-ac-controller].
+
+[remote-ac-controller]:https://github.com/prplecake/remote-ac-controller
 
 ## quickstart
 
