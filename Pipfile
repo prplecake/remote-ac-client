@@ -9,6 +9,7 @@ adafruit-circuitpython-dht = "*"
 
 [dev-packages]
 flake8 = "*"
+flake8-quotes = "*"
 
 [requires]
 python_version = "3.9"
