@@ -1,7 +1,7 @@
 import inspect
 import os
 
-REMOTE_NAME = 'ac-remote'
+REMOTE_NAME = "ac-remote"
 
 
 class IRBlaster:
@@ -27,15 +27,15 @@ class IRBlaster:
     def send_once(cmd: str) -> bool:
         if cmd not in IRBlaster.ALLOWED_CMDS:
             raise IRBlaster.InvalidCommandException()
-        return not bool(os.system(f'irsend SEND_ONCE {REMOTE_NAME} {cmd}'))
+        return not bool(os.system(f"irsend SEND_ONCE {REMOTE_NAME} {cmd}"))
 
     @staticmethod
     def send_many(cmd: str, duration: int) -> bool:
         if cmd not in IRBlaster.ALLOWED_CMDS:
             raise IRBlaster.InvalidCommandException()
-        return not bool(os.system(f'irsend SEND_START {REMOTE_NAME} {cmd};'
-                                  f'sleep {duration};'
-                                  f'irsend SEND_STOP {REMOTE_NAME} {cmd}'))
+        return not bool(os.system(f"irsend SEND_START {REMOTE_NAME} {cmd};"
+                                  f"sleep {duration};"
+                                  f"irsend SEND_STOP {REMOTE_NAME} {cmd}"))
 
     class InvalidCommandException(Exception):
         """Raised when provided command not in allowed list"""
@@ -47,11 +47,11 @@ class IRBlaster:
 
 
 def main():
-    print(f'send_once test: '
-          f'{IRBlaster.send_once(IRBlaster.RemoteCommands.POWER)}')
-    print(f'send_many test: '
-          f'{IRBlaster.send_many(IRBlaster.RemoteCommands.POWER, 3)}')
+    print(f"send_once test: "
+          f"{IRBlaster.send_once(IRBlaster.RemoteCommands.POWER)}")
+    print(f"send_many test: "
+          f"{IRBlaster.send_many(IRBlaster.RemoteCommands.POWER, 3)}")
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()

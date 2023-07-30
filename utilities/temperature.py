@@ -10,6 +10,6 @@ def convert_string_to_celcius(temp_f: str) -> float:
     try:
         temp_f = float(temp_f)
     except ValueError:
-        if temp_f.endswith('f'):
+        if temp_f.endswith("f"):
             temp_f = float(temp_f[:-1])
     return convert_to_celcius(temp_f)
