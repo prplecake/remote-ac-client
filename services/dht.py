@@ -33,7 +33,7 @@ def get_dht_data() -> (float, float, str):
     logger.debug("running 'get_dht_data'")
     temp_c: float = 0.0
     humidity: float = 0.0
-    error: str = ''
+    error: str = ""
     if dht_device is not None:
         try:
             # Print the values to the serial port
@@ -57,10 +57,10 @@ def main():
     while True:
         (temp_c, humidity, _) = get_dht_data()
         temp_f = convert_to_fahrenheit(temp_c)
-        print(f'{datetime.now()} :: Temp: {temp_f:.1f} F'
-              f' ({temp_c:.0f} C) : Humidity: {humidity:.2f}%')
+        print(f"{datetime.now()} :: Temp: {temp_f:.1f} F"
+              f" ({temp_c:.0f} C) : Humidity: {humidity:.2f}%")
         time.sleep(2.0)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()
