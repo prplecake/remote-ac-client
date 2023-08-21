@@ -21,7 +21,7 @@
                 "sha256:9710ed5b6fe216d2a40c9bd869ae14123bb9a5c12489b9579645395537477922",
                 "sha256:a2cc53fb2157427e5271db6656f1635726929f1b81dbc817893e707f1b2a54ce"
             ],
-            "markers": "python_full_version >= '3.7.0'",
+            "markers": "python_version >= '3.7'",
             "version": "==8.20.1"
         },
         "adafruit-circuitpython-busdevice": {
@@ -55,10 +55,10 @@
         },
         "adafruit-platformdetect": {
             "hashes": [
-                "sha256:74d874eb9b9a7896cd59becf9451b7e833b3135c248a82b4ddee05b944b4fcc5",
-                "sha256:c1cf130b522879e7803654082c5797531f6326aa67d4caf728d8490ba6490215"
+                "sha256:6cbc0f9ca2ce764f2c70a178850824057468cf43e1ebfa5c44b94974df9c0e80",
+                "sha256:9790f97c4b1db6139d06497927ec1e98489ad73a81b1238df30f7d44088b3236"
             ],
-            "version": "==3.48.0"
+            "version": "==3.49.0"
         },
         "adafruit-pureio": {
             "hashes": [
@@ -78,19 +78,27 @@
         },
         "click": {
             "hashes": [
-                "sha256:48ee849951919527a045bfe3bf7baa8a959c423134e1a5b98c05c20ba75a1cbd",
-                "sha256:fa244bb30b3b5ee2cae3da8f55c9e5e0c0e86093306301fb418eb9dc40fbded5"
+                "sha256:ae74fb96c20a0277a1d615f1e4d73c8414f5a98db8b799a7931d1582f3390c28",
+                "sha256:ca9853ad459e787e2192211578cc907e7594e294c7ccc834310722b41b9ca6de"
             ],
             "markers": "python_version >= '3.7'",
-            "version": "==8.1.6"
+            "version": "==8.1.7"
         },
         "flask": {
             "hashes": [
-                "sha256:77fd4e1249d8c9923de34907236b747ced06e5467ecac1a7bb7115ae0e9670b0",
-                "sha256:8c2f9abd47a9e8df7f0c3f091ce9497d011dc3b31effcf4c85a6e2b50f4114ef"
+                "sha256:09c347a92aa7ff4a8e7f3206795f30d826654baf38b873d0744cd571ca609efc",
+                "sha256:f69fcd559dc907ed196ab9df0e48471709175e696d6e698dd4dbe940f96ce66b"
             ],
             "index": "pypi",
-            "version": "==2.3.2"
+            "version": "==2.3.3"
+        },
+        "importlib-metadata": {
+            "hashes": [
+                "sha256:3ebb78df84a805d7698245025b975d9d67053cd94c79245ba4b3eb694abe68bb",
+                "sha256:dbace7892d8c0c4ac1ad096662232f831d4e64f4c4545bd53016a3e9d4654743"
+            ],
+            "markers": "python_version < '3.10'",
+            "version": "==6.8.0"
         },
         "itsdangerous": {
             "hashes": [
@@ -166,11 +174,11 @@
         },
         "pyftdi": {
             "hashes": [
-                "sha256:112f16ee5b2a2becb8f8df9dd40b3bba007589f34e7613024122d94bd56eb7d7",
-                "sha256:8df9af22077d17533d2f95b508b1d87959877627ea5dc2369056e90a3b5a232d"
+                "sha256:6af7b6c73da1256fd5140076fe77a616c13e44dd0779dd561dac1b5981dbd43f",
+                "sha256:a747bbbccc4eeea26cefa2c8bd3d2b8bef8c94ecb6969bb9c75a63640887519a"
             ],
-            "markers": "python_version >= '3.7'",
-            "version": "==0.54.0"
+            "markers": "python_version >= '3.8'",
+            "version": "==0.55.0"
         },
         "pyserial": {
             "hashes": [
@@ -197,11 +205,19 @@
         },
         "werkzeug": {
             "hashes": [
-                "sha256:935539fa1413afbb9195b24880778422ed620c0fc09670945185cce4d91a8890",
-                "sha256:98c774df2f91b05550078891dee5f0eb0cb797a522c757a2452b9cee5b202330"
+                "sha256:2b8c0e447b4b9dbcc85dd97b6eeb4dcbaf6c8b6c3be0bd654e25553e0a2157d8",
+                "sha256:effc12dba7f3bd72e605ce49807bbe692bd729c3bb122a3b91747a6ae77df528"
             ],
             "markers": "python_version >= '3.8'",
-            "version": "==2.3.6"
+            "version": "==2.3.7"
+        },
+        "zipp": {
+            "hashes": [
+                "sha256:679e51dd4403591b2d6838a48de3d283f3d188412a9782faadf845f298736ba0",
+                "sha256:ebc15946aa78bd63458992fc81ec3b6f7b1e92d51c35e6de1c3804e73b799147"
+            ],
+            "markers": "python_version >= '3.8'",
+            "version": "==3.16.2"
         }
     },
     "develop": {
