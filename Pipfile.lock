@@ -48,10 +48,10 @@
         },
         "adafruit-circuitpython-typing": {
             "hashes": [
-                "sha256:75e41d8587915c2eee864586d37e468e2e6297a327b8a9d44422dfec5fbdd5bb",
-                "sha256:fd76b076e3aefd78cd463d5cbdd6a8422f781ea69b2e6c6d6171173e1b3e8c99"
+                "sha256:02625de1f8fdeb42db5a88999d2dc7a905339b30c673f7a2d8608b840e8520cc",
+                "sha256:6a2a7a4f60d54348f3c4aad8f4dd0d0f0aaf9c854ddd1761b20d5146440faa1d"
             ],
-            "version": "==1.9.4"
+            "version": "==1.9.5"
         },
         "adafruit-platformdetect": {
             "hashes": [
@@ -86,12 +86,12 @@
         },
         "flask": {
             "hashes": [
-                "sha256:09c347a92aa7ff4a8e7f3206795f30d826654baf38b873d0744cd571ca609efc",
-                "sha256:f69fcd559dc907ed196ab9df0e48471709175e696d6e698dd4dbe940f96ce66b"
+                "sha256:21128f47e4e3b9d597a3e8521a329bf56909b690fcc3fa3e477725aa81367638",
+                "sha256:cfadcdb638b609361d29ec22360d6070a77d7463dcb3ab08d2c2f2f168845f58"
             ],
             "index": "pypi",
             "markers": "python_version >= '3.8'",
-            "version": "==2.3.3"
+            "version": "==3.0.0"
         },
         "importlib-metadata": {
             "hashes": [
@@ -216,11 +216,11 @@
         },
         "werkzeug": {
             "hashes": [
-                "sha256:2b8c0e447b4b9dbcc85dd97b6eeb4dcbaf6c8b6c3be0bd654e25553e0a2157d8",
-                "sha256:effc12dba7f3bd72e605ce49807bbe692bd729c3bb122a3b91747a6ae77df528"
+                "sha256:3ffff4dcc32db52ef3cc94dff3000a3c2846890f3a5a51800a27b909c5e770f0",
+                "sha256:cbb2600f7eabe51dbc0502f58be0b3e1b96b893b05695ea2b35b43d4de2d9962"
             ],
             "markers": "python_version >= '3.8'",
-            "version": "==2.3.7"
+            "version": "==3.0.0"
         },
         "zipp": {
             "hashes": [
