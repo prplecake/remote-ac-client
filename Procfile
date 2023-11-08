@@ -1,1 +1,1 @@
-web: pipenv run flask run -h localhost -p 8001
+web: poetry run flask run -h localhost -p 8001
