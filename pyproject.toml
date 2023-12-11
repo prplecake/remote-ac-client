@@ -8,7 +8,7 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.9"
 flask = "^3.0.0"
-adafruit-circuitpython-dht = "^4.0.3"
+adafruit-circuitpython-dht = "^4.0.4"
 
 
 [tool.poetry.group.dev.dependencies]
