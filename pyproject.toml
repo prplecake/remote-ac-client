@@ -13,7 +13,7 @@ adafruit-circuitpython-dht = "^4.0.4"
 
 [tool.poetry.group.dev.dependencies]
 flake8 = "^7.0.0"
-flake8-quotes = "^3.3.2"
+flake8-quotes = "^3.4.0"
 
 [build-system]
 requires = ["poetry-core"]
