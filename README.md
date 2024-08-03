@@ -1,6 +1,8 @@
 # remote-ac-client
 
-This is the client portion of the [remote-ac-controller].
+This is the client portion of the [remote-ac-controller], intended to be ran on
+something like a Raspberry Pi. This portion of the project has been replaced
+with an ESP32 as I've found Raspberry Pis to be rather touchy.
 
 [remote-ac-controller]:https://github.com/prplecake/remote-ac-controller
 
